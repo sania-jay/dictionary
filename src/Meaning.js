@@ -8,7 +8,7 @@ return (
 {props.meaning.definitions.map(function(definition, index) {
     return (
         <div key={index}>
-            <p>
+            
                 <strong>Definition:</strong>
             {definition.definition}
             <br />
@@ -17,7 +17,7 @@ return (
                 {definition.example}
             </em>
             <Synonyms synonyms={definition.synonyms} />
-            </p>
+        
             </div>
     );
 })}
