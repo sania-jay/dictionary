@@ -12,7 +12,7 @@ function App() {
         <Dictionary />
       </main>
       <footer className="App-Footer">
-        <small>Coded by Sania</small>
+        <small>Coded by Sania, open sourced on <a href="https://github.com/sania-jay/dictionary" target="_blank">GitHub</a></small>
       </footer>
     </div>
   );
