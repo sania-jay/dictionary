@@ -15,6 +15,7 @@ if(props.photos) {
                 <img
                   src={photo.src.landscape}
                   key={index}
+                  alt={photo.alt}
                   className="img-fluid"
                 />
               </a>
