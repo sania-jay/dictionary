@@ -32,8 +32,9 @@ if (loaded) {
 return (
   <div className="Dictionary">
     <section>
+      <h1>What word do you want to look up?</h1>
       <form onSubmit={handleSubmit}>
-        <input type="search" onChange={handleKeyWordChange} />
+        <input type="search" onChange={handleKeyWordChange} defaultValue={props.defaultKeyword} />
       </form>
       <div className="hint">
         suggested words: sunset, gym, coffee, panda ...

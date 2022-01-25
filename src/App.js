@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">Dictionary</header>
 
       <main className="App-Main">
-        <Dictionary defaultKeyword="Coffee" />
+        <Dictionary defaultKeyword="coffee" />
       </main >
       <footer className="App-Footer">
         <small>
